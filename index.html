@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/b42bc5ce06.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
+    <link href="./main.css" rel="stylesheet" />
+    <title>Edit course</title>
+</head>
+
+<body>
+    
+        <div class="big-nav bg-light">
+            <div class="v1748_2136 bg-dark"></div>
+            <div class="v1748_2137"></div>
+            <div class="v1748_2138">
+                <div class="v1748_2139"></div>
+                <div class="v1748_2140"></div>
+            </div>
+            <div class="v1748_2141">
+                <div class="logo">
+                    <div class="v1748_2143"></div>
+                    <div class="v1748_2144"><i class="far fa-play-circle fa-2x" style="color: rgba(14, 74, 189, 1);"></i></div>
+                </div>
+            </div>
+            <div class="nav-icons">
+                <div class="nav-icon mr-2"><i class="far fa-bell fa-2x" style="color: rgba(74, 73, 73, 1);"></i></div>
+                <div class="nav-icon "><i class="far fa-comment-dots fa-2x" style="color: rgba(74, 73, 73, 1);"></i></div>
+                <div class="nav-image"><img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" alt="" style="max-width: 100%;"></div>
+            </div>
+            <!-- <div class="name"></div>
+            <div class="name"></div> -->
+            <form class="search-form ">
+                <!-- <div class="v1748_2148"></div><span class="v1748_2149">Search</span> -->
+                <div class="v1748_2148"><i class="fas fa-search fa-2x ml-2" style="color: rgba(14, 74, 189, 1);"></i> <input type="text" name="search" placeholder="Search.." class="search-box"> </div>
+                <!-- <div class="name"></div> -->
+            </form>
+        </div>
+<div id="main">
+    <!--sidebar-->
+    <div class="sidebar-div">
+        <div class="mt-4" style="display: flex;">
+            <div style="margin-right: 1rem;"><i class="fas fa-border-none "></i></div><span><p class="p2">Dashboard</p></span>
+        </div>
+        <div class="sidebar-nav mb-4">
+            <div style="margin-right: 1rem;"><i class="fas fa-border-none "></i></div>
+            <button class="dropdown-btn">Courses
+                <i class="fas fa-angle-down" style="margin-left: 1rem;"></i>
+            </button>
+        </div>
+        <div class="sidebar-nav  mb-4">
+            <div style="margin-right: 1rem;"><i class="fas fa-border-none "></i></div>
+            <button class="dropdown-btn dropdown-btn1">Students
+                <i class="fas fa-angle-right" style="margin-left: 1rem;"></i>
+            </button>
+        </div>
+        <div class="sidebar-nav  mb-4">
+            <div style="margin-right: 1rem;"><i class="fas fa-border-none "></i></div>
+            <button class="dropdown-btn dropdown-btn1">Mentors
+                <i class="fas fa-angle-right" style="margin-left: 1rem;"></i>
+            </button>
+        </div>
+        <div class="sidebar-nav">
+            <div style="margin-right: 1rem;"><i class="fas fa-border-none "></i></div>
+            <button class="dropdown-btn dropdown-btn1">Payout
+                 
+            </button>
+        </div>
+    </div>
+    <!--end sidebar-->
+     <div class="main pb-5">
+         <div style="padding-left: 1rem;">
+             <p style="color: #020202; font-size: 20px;">Edit Course</p>
+         </div>
+        <div style="padding-left: 1rem;">
+            <p style="color: #020202; font-size: 1rem;">Detail Course</p>
+        </div>
+        <div class="course-table">
+            <!--first column-->
+            <div class="course-column">
+             <div class="columns1">
+               <p style="color: #4b4a4a;  font-weight: Regular; font-size: 14px;">Course Name</p>
+            </div>
+             <div class="columns1" style=" background: rgba(255,255,255,1);  width: 20rem; height: 48px; border-radius: 10px; padding-left: 1.5rem; display: flex; align-items: center; padding-top: 1rem;">
+               <p style="color: #4b4a4a; font-weight: Medium; font-size: 14px;">UIUX Design For Beginner</p>
+            </div>
+            <div class="columns1">
+               <p style="color: #4b4a4a;  font-weight: Regular; font-size: 14px; display: flex; align-items: center; padding-top: 1rem;">Course Price</p>
+           </div>
+        <div class="columns1" style=" background: rgba(255,255,255,1);  width: 350px; height: 48px; border-radius: 10px; padding-left: 1.5rem; display: flex; align-items: center; padding-top: 1rem;">
+            <p style="color: #4b4a4a; font-weight: Medium; font-size: 14px;">$</p>
+            <div class="columns1" style="width: 1.5rem; height: 50%;"></div>
+            <p style="color: #4b4a4a; font-weight: Medium; font-size: 14px;">76</p>
+        </div>
+            <div class="columns1" style=" height: 3rem;  display: flex; align-items: center; padding-top: 1rem;">
+                <p style="color: #020202; font-size: 1rem;">Add Coupon</p>
+            </div>
+            <div class="columns1">
+                <p style="color: #4b4a4a;  font-weight: Regular; font-size: 14px; display: flex; align-items: center; padding-top: 1rem;">Coupon Code</p>
+            </div>
+            <div class="columns1"
+                style=" background: rgba(255,255,255,1);  width: 20rem; height: 48px; border-radius: 10px; padding-left: 1.5rem; display: flex; align-items: center; padding-top: 1rem;">
+                <p style="color: #4b4a4a; font-weight: Medium; font-size: 14px;">Example: UIUX2021</p>
+            </div>
+            <div class="columns1">
+                <p style="color: #ff7272;  font-weight: Regular; font-size: 14px; display: flex; align-items: center;">
+                    Coupon code must consist of letters and numbers
+                </p>
+            </div>
+            <button style="border-radius: 10px; background: rgba(14,74,189,1); width: 133px; height: 48px; color: #ffffff; font-size: 1rem; border: none; outline: none;">
+                save changes
+            </button>
+            </div>
+            <!--second column-->
+            <div class="course-column">
+                <div class="columns1">
+                    <p style="color: #4b4a4a;  font-weight: Regular; font-size: 14px;">Course Category</p>
+                </div>
+            <form class="select-form columns1">
+                <label class="p3">Design</label>
+                <select class="categories" name="carlist" form="carform" style="border: none;">
+                    <option value="" disabled selected></option>
+                    <option value="volvo">Volvo</option>
+                    <option value="saab">Saab</option>
+                    <option value="opel">Opel</option>
+                    <option value="audi">Audi</option>
+                </select>
+            </form>
+                <div class="columns1">
+                    <p style="color: #4b4a4a;  font-weight: Regular; font-size: 14px; display: flex; align-items: center; padding-top: 1rem;">Create Course</p>
+                </div>
+            <form class="select-form columns1">
+                <label class="p3">27, may 2021</label>
+                <select class="categories" name="carlist" form="carform" style="border: none;">
+                    <option value="" disabled selected></option>
+                    <option value="volvo">Volvo</option>
+                    <option value="saab">Saab</option>
+                    <option value="opel">Opel</option>
+                    <option value="audi">Audi</option>
+                </select>
+            </form>
+                <div class="columns1" style=" height: 3rem;  display: flex; align-items: center; padding-top: 1rem;">
+                    <p style="color: #020202; font-size: 1rem;"> </p>
+                </div>
+                <div class="columns1">
+                    <p
+                        style="color: #4b4a4a;  font-weight: Regular; font-size: 14px; display: flex; align-items: center; padding-top: 1rem;">
+                        Expired Date</p>
+                </div>
+                <form class="select-form columns1">
+                    <label class="p3">27, may 2021</label>
+                    <select class="categories" name="carlist" form="carform" style="border: none;">
+                        <option value="" disabled selected></option>
+                        <option value="volvo">Volvo</option>
+                        <option value="saab">Saab</option>
+                        <option value="opel">Opel</option>
+                        <option value="audi">Audi</option>
+                    </select>
+                </form>
+            </div>
+            <!--Third column-->
+            <div class="course-column">
+                <div class="columns1">
+                    <p style="color: #4b4a4a;  font-weight: Regular; font-size: 14px;">Instructure</p>
+                </div>
+                <div class="columns1"
+                    style=" background: rgba(255,255,255,1);  width: 350px; height: 48px; border-radius: 10px; padding-left: 1.5rem; display: flex; align-items: center; padding-top: 1rem;">
+                    <p style="color: #4b4a4a; font-weight: Medium; font-size: 14px;">Raja Zulcom</p>
+                </div>
+                <div class="columns1">
+                    <p
+                        style="color: #4b4a4a;  font-weight: Regular; font-size: 14px; display: flex; align-items: center; padding-top: 1rem;">
+                        Course Begin</p>
+                </div>
+
+                <form class="select-form columns1">
+                    <label class="p3">27, may 2021</label>
+                    <select class="categories" name="carlist" form="carform" style="border: none;">
+                        <option value="" disabled selected></option>
+                        <option value="volvo">Volvo</option>
+                        <option value="saab">Saab</option>
+                        <option value="opel">Opel</option>
+                        <option value="audi">Audi</option>
+                    </select>
+                </form>
+                <div class="columns1" style=" height: 3rem;  display: flex; align-items: center; padding-top: 1rem;">
+                    <p style="color: #020202; font-size: 1rem;"></p>
+                </div>
+                <div class="columns1">
+                    <p style="color: #4b4a4a;  font-weight: Regular; font-size: 14px; display: flex; align-items: center; padding-top: 1rem;"> Discount Price</p>
+                </div>
+                <div class="columns1"
+                    style=" background: rgba(255,255,255,1);  width: 350px; height: 48px; border-radius: 10px; padding-left: 1.5rem; display: flex; align-items: center; padding-top: 1rem;">
+                    <p style="color: #4b4a4a; font-weight: Medium; font-size: 14px;">$</p>
+                    <div style="width: 1.5rem; height: 1.5rem; "></div>
+                    <p style="color: #4b4a4a; font-weight: Medium; font-size: 14px;">76</p>
+                </div>
+            </div>
+        </div> 
+        <!-- main section 2 -->
+        <div class="mt-4" id="main2">
+           <div class="main2-first">
+             <div class="columns2">
+                <p style="color: #333;  font-weight: Regular; font-size: 14px; display: flex; align-items: center; padding-top: 1rem;">Course Discription</p>
+            </div>
+            <div class="columns2" style=" background: rgba(255,255,255,1); border-radius: 15px; padding: 1rem;">
+                <p style="color: #4b4a4a; font-weight: regular; font-size: 14px;">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Justo, ipsum id consequat pretium enim tincidunt sit. Gravida
+                    diam aliquam quis est tincidunt auctor massa mauris mattis. Morbi interdum consequat et id suspendisse rhoncus. At
+                    molestie etiam bibendum ornare tellus. Iaculis tortor mauris massa nulla in.\n adipiscing elit. Justo, ipsum id
+                    consequat pretium enim tincidunt sit. Gravida diam aliquam quis est tincidunt auctor massa mauris mattis. Morbi interdum
+                    consequat et id suspendisse rhoncus. At molestie etiam bibendum ornare tellus. Iaculis tortor mauris massa nulla in
+                </p>
+            </div>
+           </div>
+           <div class="main2-second">
+            <div class="columns2">
+                <p style="color: #333;  font-weight: Regular; font-size: 14px; display: flex; align-items: center; padding-top: 1rem;"> Add Photos</p>
+            </div>
+            <div class="columns2" style="display: grid; grid-template-columns: auto auto; grid-column-gap: 1rem;">
+                <div class="photo-box" style="width: 160px; height: 107px; display: grid; place-items: center;  background: rgba(236,236,236,1);">
+                    <i class="far fa-image"></i>
+                </div>
+                <div class="photo-box" style="width: 10rem; height: 107px; display: grid; place-items: center;  background: rgba(236,236,236,1);">
+                   <p>+1</p>
+                </div>
+            </div>
+            <button class="text-muted" style=" margin-top: 1rem; width: 85px; height: 24px; background: rgba(196,196,196,1); border: none; font-size: 0.75rem;">chose files</button>
+            <div class="columns2" style="margin-top: 2rem;">
+                <button class="mr-1" style="border-radius: 10px; background: rgba(14,74,189,1); width: 133px; height: 48px; color: #ffffff; font-size: 1rem; border: none;">
+                    save Photos
+                </button>
+                <span>
+                    <button
+                        style="border-radius: 10px; width: 133px; height: 48px;  color: #020202; font-size: 1rem;">
+                        Delete Photos
+                    </button>
+                </span>
+            </div>
+        </div>
+        </div>
+        <!-- main section 3 -->
+        <div class="mt-4" id="main3">
+            <div class="main3-child">
+                <div class="columns2">
+                    <p
+                        style="color:  #020202;  font-weight: Regular; font-size:1rem;">
+                        Lesson Section</p>
+                </div>
+                <div class="columns2">
+                    <p
+                        style="color:  #020202; font-weight: Regular; font-size: 1rem;">
+                        + Action</p>
+                </div>
+            </div>
+            <div class="main3-child">
+                <div class="columns2" style="display: flex; justify-content: space-between; align-items: center;  background: rgba(255,255,255,1); border-radius: 10px;">
+                    <button class="dropdown-btn" style="color: #4b4a4a; font-size: 14px;">
+                        <i class="fas fa-angle-down" style="margin-left: 2rem;"></i>
+                        user research
+                    </button>
+                    <div style="height: 100%; padding-top: 1rem; margin-right: 2rem;">
+                        <p style="color: #4b4a4a;  font-weight: Regular; font-size: 14px; "> 50min</p>
+                    </div>
+                    
+                </div>
+            <div class="columns2" style="display: flex; justify-content: space-between; align-items: center;  background: rgba(255,255,255,1); border-radius: 10px;">
+                <button class="dropdown-btn" style="color:  #020202; font-size: 14px;">
+                    <i class="fas fa-pen " style="margin-left: 2rem; margin-right: 1rem; color: #020202;"></i>
+                   Edit
+                </button>
+                <div style="border: 0.5px solid rgba(196,196,196,1); height: 24px;"></div>
+                <button class="dropdown-btn" style="color:   #ff7272; font-size: 14px; margin-right: 2rem;">
+                    <i class="fas fa-trash " style="margin-left: 2rem; margin-right: 1rem; color:  #ff7272;"></i>
+                    Delete
+                </button>
+            </div>
+            </div>
+            <div class="main3-child" style="margin-top: 1rem;">
+                <div class="columns2"
+                    style="display: flex; justify-content: space-between; align-items: center;  background: rgba(255,255,255,1); border-radius: 10px;">
+                    <button class="dropdown-btn" style="color: #4b4a4a; font-size: 14px;">
+                        <i class="fas fa-angle-down" style="margin-left: 2rem;"></i>
+                        user research
+                    </button>
+                    <div style="height: 100%; padding-top: 1rem; margin-right: 2rem;">
+                        <p style="color: #4b4a4a;  font-weight: Regular; font-size: 14px; "> 50min</p>
+                    </div>
+            
+                </div>
+                <div class="columns2"
+                    style="display: flex; justify-content: space-between; align-items: center;  background: rgba(255,255,255,1); border-radius: 10px;">
+                    <button class="dropdown-btn" style="color:  #020202; font-size: 14px;">
+                        <i class="fas fa-pen " style="margin-left: 2rem; margin-right: 1rem; color: #020202;"></i>
+                        Edit
+                    </button>
+                    <div style="border: 0.5px solid rgba(196,196,196,1); height: 24px;"></div>
+                    <button class="dropdown-btn" style="color:   #ff7272; font-size: 14px; margin-right: 2rem;">
+                        <i class="fas fa-trash " style="margin-left: 2rem; margin-right: 1rem; color:  #ff7272;"></i>
+                        Delete
+                    </button>
+                </div>
+            </div>
+            <div class="main3-child" style="margin-top: 1rem;">
+                <div class="columns2"
+                    style="display: flex; justify-content: space-between; align-items: center;  background: rgba(255,255,255,1); border-radius: 10px;">
+                    <button class="dropdown-btn" style="color: #4b4a4a; font-size: 14px;">
+                        <i class="fas fa-angle-down" style="margin-left: 2rem;"></i>
+                        user research
+                    </button>
+                    <div style="height: 100%; padding-top: 1rem; margin-right: 2rem;">
+                        <p style="color: #4b4a4a;  font-weight: Regular; font-size: 14px; "> 50min</p>
+                    </div>
+            
+                </div>
+                <div class="columns2"
+                    style="display: flex; justify-content: space-between; align-items: center;  background: rgba(255,255,255,1); border-radius: 10px;">
+                    <button class="dropdown-btn" style="color:  #020202; font-size: 14px;">
+                        <i class="fas fa-pen " style="margin-left: 2rem; margin-right: 1rem; color: #020202;"></i>
+                        Edit
+                    </button>
+                    <div style="border: 0.5px solid rgba(196,196,196,1); height: 24px;"></div>
+                    <button class="dropdown-btn" style="color:   #ff7272; font-size: 14px; margin-right: 2rem;">
+                        <i class="fas fa-trash " style="margin-left: 2rem; margin-right: 1rem; color:  #ff7272;"></i>
+                        Delete
+                    </button>
+                </div>
+            </div>
+          </div>
+        </div>
+     </div>
+ </div>
+ 
+</body>
+
+</html>
