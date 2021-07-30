@@ -259,6 +259,9 @@ p {
   border-radius: 15px;
   padding-top: 0.5rem;
 }
+.columns1 {
+  width: 20rem;
+}
 
 .v1748_1779 {
   width: 350px;
